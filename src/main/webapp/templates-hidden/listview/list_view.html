@@ -1,0 +1,56 @@
+<!-- table template for all listings -->
+<div id="listview">
+   <h1>
+      <span id="span_title">Titel</span>
+   </h1>
+   <div id="selectorbox">
+      <table class="selectorbox">
+         <tbody>
+            <tr>
+               <td><img src="/images/listview/sel_1.gif"></td>
+               <td style="cursor: pointer" id="td_button_start"><img
+                     src="/images/listview/sel_2.gif" title="Anfang"></td>
+               <td style="cursor: pointer" id="td_button_back"><img
+                     src="/images/listview/sel_3.gif" title="Zurück"></td>
+               <td><img src="/images/listview/sel_4.gif"></td>
+               <td class="selectornumber"><span
+                  style="text-align: center;"
+                  id="span_selectorbox_start">1</span> bis <span
+                  style="text-align: center;" id="span_selectorbox_end">1</span>
+                  von <span id="span_selectorbox_total">Gesamt</span></td>
+               <td><img src="/images/listview/sel_6.gif"></td>
+               <td style="cursor: pointer" id="td_button_next"><img
+                     src="/images/listview/sel_7.gif" title="Weiter"></td>
+               <td style="cursor: pointer" id="td_button_end"><img
+                     src="/images/listview/sel_8.gif" title="Zum Ende"></td>
+               <td><img src="/images/listview/sel_9.gif"></td>
+               <td style="vertical-align: middle; padding-left: 1em"><lift:embed
+                     what="listview/site_selection_dropdown"
+                     eager="true" /></td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <table class="colored">
+      <thead>
+         <tr>
+            <td style="text-align: center;" id="searchfieldcell"><input
+               id="searchinput"
+               style="padding: 3px 3px; text-align: left; width: 90%" />
+            </td>
+         </tr>
+      </thead>
+      <tbody id="tbody_list_view">
+         <tr>
+            <th id="th_header" class="px120 rightalign"><div
+                  id="div_header">
+                  <span id="span_header"></span>
+               </div></th>
+         </tr>
+         <tr id="tr_content">
+            <td id="td_content"><span id="span_content"><span>Actual
+                     content</span></span></td>
+         </tr>
+      </tbody>
+   </table>
+</div>
