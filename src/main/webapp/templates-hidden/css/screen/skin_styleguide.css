@@ -1,0 +1,324 @@
+/* specific additional styles and overriding rules for styleguide */
+
+.rules {
+	display: block;
+	width: 90%; /* IE bad box model*/
+	padding: 0.2em;
+	color: #BAAB5A;
+	border-top: 1px solid #F1EFDF;
+	border-right: 1px solid #BAAB5A;
+	border-left: 1px solid #F1EFDF;
+	border-bottom: 1px solid #BAAB5A;
+	font-size: 10px; /*exception to the accessibility rule :)*/
+	font-weight: normal;
+	font-style: italic;
+	line-height: 100%;
+}
+
+pre {
+    margin: 3em 0;
+    border-top: 1px solid #F1EFDF;
+	border-right: 1px solid #BAAB5A;
+	border-left: 1px solid #F1EFDF;
+	border-bottom: 1px solid #BAAB5A;
+}
+* html body pre { /* Required by IE/Win (Star html Selector Hack) */
+    overflow: auto;
+    width: 100%;
+}
+pre code.html {
+    display: block;
+    overflow: auto;
+    padding: 0.2em;
+    color: #BAAB5A;
+}
+
+/* font colors ...*/
+.blue100 {
+	color:#2B477F;
+}
+.blue90 {
+	color:#415A8C;
+}
+.blue80 {
+	color:#566D99;
+}
+.blue70 {
+	color:#6B7FA6;
+}
+.blue60 {
+	color:#8191B3;
+}
+.blue50 {
+	color:#95A3BF;
+}
+.blue40 {
+	color:#ABB6CC;
+}
+.blue30 {
+	color:#C0C8D9;
+}
+.blue20 {
+	color:#D5DBE5;
+}
+.blue10 {
+	color:#EAEDF2;
+}
+
+.silver100 {
+	color:#8CA6A6;
+}
+.silver90 {
+	color:#98AFAF;
+}
+.silver80 {
+	color:#A3B8B8;
+}
+.silver70 {
+	color:#AFC1C1;
+}
+.silver60 {
+	color:#BACACA;
+}
+.silver50 {
+	color:#C6D3D3;
+}
+.silver40 {
+	color:#D1DCDC;
+}
+.silver30 {
+	color:#DDE4E4;
+}
+.silver20 {
+	color:#E8EEEE;
+}
+.silver10 {
+	color:#F4F6F6;
+}
+
+.gold100 {
+	color:#BAAB5A;
+}
+.gold80 {
+	color:#C8BC7C;
+}
+.gold60 {
+	color:#D6CD9D;
+}
+.gold40 {
+	color:#E4DEBE;
+}
+.gold20 {
+	color:#F1EFDF;
+}
+
+.orange100 {
+	color:#BD6336;
+}
+.orange80 {
+	color:#CA835F;
+}
+.orange60 {
+	color:#D8A287;
+}
+.orange40 {
+	color:#E5C1AF;
+}
+.orange20 {
+	color:#F2E0D8;
+}
+
+.green100 {
+	color:#14683D;
+}
+.green80 {
+	color:#448765;
+}
+.green60 {
+	color:#73A58B;
+}
+.green40 {
+	color:#A2C3B2;
+}
+.green20 {
+	color:#D1E1D9;
+}
+
+.violet100 {
+	color:#810A44;
+}
+.violet80 {
+	color:#9B3C6A;
+}
+.violet60 {
+	color:#B46D90;
+}
+.violet40 {
+	color:#CD9EB5;
+}
+.violet20 {
+	color:#E6CFDA;
+}
+
+.black100 {
+	color:#000000;
+}
+.white100 {
+	color:#FFFFFF;
+}
+
+.error100 {
+	color:#CC0000;
+}
+.visited100 {
+	color:#9C7795;
+}
+
+/* background colors ...*/
+
+.bgblue100 {
+	background-color:#2B477F;
+}
+.bgblue90 {
+	background-color:#415A8C;
+}
+.bgblue80 {
+	background-color:#566D99;
+}
+.bgblue70 {
+	background-color:#6B7FA6;
+}
+.bgblue60 {
+	background-color:#8191B3;
+}
+.bgblue50 {
+	background-color:#95A3BF;
+}
+.bgblue40 {
+	background-color:#ABB6CC;
+}
+.bgblue30 {
+	background-color:#C0C8D9;
+}
+.bgblue20 {
+	background-color:#D5DBE5;
+}
+.bgblue10 {
+	background-color:#EAEDF2;
+}
+
+.bgsilver100 {
+	background-color:#8CA6A6;
+}
+.bgsilver90 {
+	background-color:#98AFAF;
+}
+.bgsilver80 {
+	background-color:#A3B8B8;
+}
+.bgsilver70 {
+	background-color:#AFC1C1;
+}
+.bgsilver60 {
+	background-color:#BACACA;
+}
+.bgsilver50 {
+	background-color:#C6D3D3;
+}
+.bgsilver40 {
+	background-color:#D1DCDC;
+}
+.bgsilver30 {
+	background-color:#DDE4E4;
+}
+.bgsilver20 {
+	background-color:#E8EEEE;
+}
+.bgsilver10 {
+	background-color:#F4F6F6;
+}
+
+.bggold100 {
+	background-color:#BAAB5A;
+}
+.bggold80 {
+	background-color:#C8BC7C;
+}
+.bggold60 {
+	background-color:#D6CD9D;
+}
+.bggold40 {
+	background-color:#E4DEBE;
+}
+.bggold20 {
+	background-color:#F1EFDF;
+}
+
+.bgorange100 {
+	background-color:#BD6336;
+}
+.bgorange80 {
+	background-color:#CA835F;
+}
+.bgorange60 {
+	background-color:#D8A287;
+}
+.bgorange40 {
+	background-color:#E5C1AF;
+}
+.bgorange20 {
+	background-color:#F2E0D8;
+}
+
+.bggreen100 {
+	background-color:#14683D;
+}
+.bggreen80 {
+	background-color:#448765;
+}
+.bggreen60 {
+	background-color:#73A58B;
+}
+.bggreen40 {
+	background-color:#A2C3B2;
+}
+.bggreen20 {
+	background-color:#D1E1D9;
+}
+
+.bgviolet100 {
+	background-color:#810A44;
+}
+.bgviolet80 {
+	background-color:#9B3C6A;
+}
+.bgviolet60 {
+	background-color:#B46D90;
+}
+.bgviolet40 {
+	background-color:#CD9EB5;
+}
+.bgviolet20 {
+	background-color:#E6CFDA;
+}
+
+.bgblack100 {
+	background-color:#000000;
+}
+.bgwhite100 {
+	background-color:#FFFFFF;
+}
+
+.bgerror100 {
+	background-color:#CC0000;
+}
+.bgvisited100 {
+	background-color:#9C7795;
+}
+
+table.colors td span {
+	display: block;
+	border: 1px solid #000000;
+	height: 2.5em;
+	padding: 0.5em 0 0 1em;
+}
