@@ -1,0 +1,90 @@
+/*
+    Module: 3 column layout
+*/
+
+#Wrapper {
+    width: 100%; /* total width */
+   
+    min-width: 860px;
+    background-image: url("../../../images/web/nav_bg.gif");
+    background-repeat: repeat-y;
+}
+#mainnavblock,
+#Wrapper,
+#headerblock {
+    min-width: 900px;
+}
+#Outer {
+    /*padding-right: 20em; /* #marginal:width; Entfernt, da ganzes marginal Element nicht existent*/
+    padding-right: 2em;
+    padding-left: 252px; /* #navblock:width */
+    width: auto;
+}
+#Wrapper.fullwidth #Outer,
+#Wrapper.nomarginal #Outer {
+    padding-right: 0;
+}
+#Inner {
+    margin: 0;
+    width: 100%;
+
+}
+#navblock {
+    float: left;
+    position: relative;
+    z-index: 10;
+    margin-left: -252px; /* _negative_ left column width */
+    width: 252px; /* left column width */
+}
+/* IE Win code, position: relative causes rendering bug in IE Win \*/
+* html body div#navblock {
+    position: static;
+}
+/* backslash hack end */
+#contentblock {
+    float: left;
+    position: relative;
+    z-index: 12;
+    width: 100%;
+    /* max-width: 580px;*/
+}
+#marginal {
+    float: left;
+    position: relative;
+    z-index: 11;
+    margin-right: -20em; /* _negative_ right column width */
+    width: 20em; /* right column width */
+}
+
+/*
+    Required by Mozilla
+*/
+#Inner[id] {
+    border-bottom: 1px solid transparent;
+}
+#navblock[id] {
+    margin-right: 1px;
+}
+#marginal[id] {
+    margin-left: 1px;
+}
+#contentblock[id] {
+    margin: 0 -3px 0 -2px;
+}
+#footerblock[id] {
+    margin-top: -1px;
+}
+
+div#loadBar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100pt;
+	height: 20pt;
+	z-index: 10;
+}
+
+div#loadBar img {
+	position: absolute;
+	top: -1pt;
+}
