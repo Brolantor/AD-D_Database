@@ -1,0 +1,38 @@
+<div>
+   <h1>
+      <span id="title">Details</span>
+   </h1>
+   <p style="font-size: 6pt; font-weight: normal; margin-bottom: 0">
+      Stand: <span id="data_timestamp">aktuell</span>
+   </p>
+   <form class="lift:form.ajax" action="">
+      <h2>
+         <span id="caption"></span>
+      </h2>
+      <p>
+         <span id="long_caption"></span>
+      </p>
+      <table cellpadding="3" class="colored" style="width: 80%">
+         <caption>Datenblatt</caption>
+         <tbody id="tbody_content">
+            <tr id="tr_content">
+               <th id="th_content"><span id="span_header">Header
+                     Content</span></th>
+               <td id="td_content"><span id="span_content">Actual
+                     content</span></td>
+            </tr>
+         </tbody>
+      </table>
+      <span id="span_edit_button"></span>
+      <span id="span_save_button"></span>
+   </form>
+   <div id="dhtmlgoodies_tabView1">
+      <div id="div_firstTab">Erstes Tab</div>
+   </div>
+   <script type="text/javascript" id="script_initTabs">
+		//<![CDATA[
+		initTabs('dhtmlgoodies_tabView1', 0,
+				document.getElementById('content').offsetWidth * 0.99, '');
+		//]]>
+	</script>
+</div>
